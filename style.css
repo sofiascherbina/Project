@@ -283,13 +283,11 @@ header .decor-butt:nth-child(1){
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    height: 24px;
+    margin-bottom: 25px;
 }
-.email::after{
-    display: block;
-    content: '';
-    width: 269px;
-    height: auto;
-    background-image: url(./img/long-pointer.svg);
+.address-em-it:first-child{
+    margin-top: 45px;
 }
 .address-em , .address-em a{
     font-family: 'Inter';
@@ -303,8 +301,13 @@ header .decor-butt:nth-child(1){
     font-weight: 400;
     color: var(--white-text);
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
 }
 .line{
     height: 153px;
     border-right: 2px solid var(--white-text);
+}
+.decor-pointer{
+    padding: 6px 22px;
 }
