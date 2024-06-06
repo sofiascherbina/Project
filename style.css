@@ -24,27 +24,26 @@ body{
     width: 1032px;
     margin: 0 auto;
 }
+.top-overlay > .container{
+    display: flex;
+    padding: 54px 0px 36px ;
+    align-items: center;
+    justify-content: space-between; 
+}
 .top-overlay{
     display: flex;
-    gap: 185px;
-    justify-content: center;
     align-items: center;
-    padding: 54px 0px 36px 204px;
     background-image:linear-gradient(rgba(43,74,97, 0.87),rgba(43,74,97, 0.87)),
-     url(./img/top-small-bg.jpg);
+     url(./img/overlay-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 3px solid var(--white-text);
+    background-position: 50% 55%;
     width: 100%;
-}
-.top-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 820px;
+    border-bottom: 3px solid var(--white-text);
 }
 .navigation{
     display: flex;
-    gap: 38px;
+    gap: 30px;
 }
 .navigation-el{
     font-family: 'Inter';
@@ -56,10 +55,6 @@ body{
     font-weight: 600;
     color: var(--hover-color);
     cursor: pointer;
-}
-.choice-div{
-    display: flex;
-    gap: 50px;
 }
 .decor-butt{
     font-family:'Headland One';
@@ -79,6 +74,10 @@ header .decor-butt:nth-child(1){
     height: 41px;
     padding-top:7px;
 }
+.toggle-button{
+    position: absolute;
+    right: 50px;
+}
 #switcher{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -97,12 +96,10 @@ header .decor-butt:nth-child(1){
 }
 #switcher::after{
     content: "";
-
     display: inline-block;
     position: absolute;
     left: 3px;
     top: 3px;
-  
     width: 12px;
     height: 12px;
     background-color: var(--white-text);
@@ -145,6 +142,13 @@ header .decor-butt:nth-child(1){
     font-weight: 400;
     color: var(--white-text);
     margin: 0px;
+    line-height: 25px;
+}
+.entry > p:first-child{
+     width: 270px;
+}
+.entry > p:nth-child(2){
+    width: 300px;
 }
 .entry > p:nth-child(1)::after{
     display: block;
@@ -268,10 +272,11 @@ header .decor-butt:nth-child(1){
     height: 223px;
     width: 100%;
     background-image:linear-gradient(rgba(43, 74, 97, 87%), rgba(43, 74, 97, 87%)),
-     url(./img/down-small-bg.jpg);
+     url(./img/overlay-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    background-position: 50% 52%;
     padding: 35px 0px ;
 }
 .bottom > .container{
