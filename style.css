@@ -145,10 +145,10 @@ header .decor-butt:nth-child(1){
     line-height: 25px;
 }
 .entry > p:first-child{
-     width: 270px;
+     width: 298px;
 }
 .entry > p:nth-child(2){
-    width: 300px;
+    width: 376px;
 }
 .entry > p:nth-child(1)::after{
     display: block;
