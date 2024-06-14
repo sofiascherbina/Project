@@ -159,8 +159,6 @@ header .decor-butt:nth-child(1){
     background-image: url(./img/white-arrow.svg);
 }
 .network-el{
-    display: block;
-    content: '';
     width: 50px;
     height: 30px;
     background-repeat: no-repeat;
