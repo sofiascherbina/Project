@@ -207,11 +207,11 @@ header .decor-butt:nth-child(1){
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 330px;
-    
 }
-.trailer > .decor-butt{
-    display: block;
-    margin: 0 auto;
+.trailer-video{
+    /* display: block;
+    margin: 0 auto; */
+    margin-left: 590px;
 }
 .language-section{
     width: 100%;
